@@ -40,5 +40,10 @@ class Song
     song = final[1]
     song.chomp(".mp3")
     artist = final[0]
+    
+    new = self.new 
+    new.name = song 
+    new.artist = artist 
+    
   end 
  end
