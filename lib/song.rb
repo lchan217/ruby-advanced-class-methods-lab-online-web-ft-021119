@@ -41,7 +41,7 @@ class Song
     artist = final[0]
     
     new = self.new 
-    new.name = song 
+    new.name = song.chomp(".mp3")
     new.artist_name = artist
     new.save
     new
