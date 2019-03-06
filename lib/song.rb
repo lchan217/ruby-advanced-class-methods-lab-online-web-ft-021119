@@ -36,6 +36,6 @@ class Song
   end
   def self.new_from_filename(file)
     #file = "Thundercat - For Love I Come.mp3"
-    binding.pry
+
   end 
  end
