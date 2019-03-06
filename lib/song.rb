@@ -36,6 +36,9 @@ class Song
   end
   def self.new_from_filename(file)
     #file = "Thundercat - For Love I Come.mp3"
-
+    final = file.split(" - ")
+    song = final[1]
+    song.chomp(".mp3")
+    artist = final[0]
   end 
  end
