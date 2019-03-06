@@ -44,6 +44,7 @@ class Song
     new = self.new 
     new.name = song 
     new.artist_name = artist
-    
+    new.save
+    authenticate_or_request_with_http_basic
   end 
  end
