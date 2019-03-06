@@ -45,6 +45,6 @@ class Song
     new.name = song 
     new.artist_name = artist
     new.save
-    authenticate_or_request_with_http_basic
+    new
   end 
  end
